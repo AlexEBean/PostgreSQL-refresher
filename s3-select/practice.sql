@@ -8,22 +8,22 @@ SELECT * FROM film;
 SELECT * FROM staff;
 
 --4
-SELECT address,district FROM address;
+SELECT address, district FROM address;
 
 --5
-SELECT title,description FROM film;
+SELECT title, description FROM film;
 
 --6
-SELECT city,country_id FROM city;
+SELECT city, country_id FROM city;
 
 --7
-SELECT DISTINCT(last_name) FROM customer;
+SELECT DISTINCT last_name FROM customer;
 
 --8
-SELECT DISTINCT(first_name) FROM actor;
+SELECT DISTINCT first_name FROM actor;
 
 --9
-SELECT DISTINCT(inventory_id) FROM rental;
+SELECT DISTINCT inventory_id FROM rental;
 
 --10
 SELECT COUNT(*) FROM film;
@@ -35,4 +35,4 @@ SELECT COUNT(*) FROM category;
 SELECT COUNT(DISTINCT first_name) FROM actor;
 
 --12
-SELECT rental_id,return_date-rental_date FROM rental;
+SELECT rental_id, return_date - rental_date FROM rental;

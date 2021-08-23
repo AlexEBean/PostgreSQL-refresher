@@ -8,4 +8,4 @@ SELECT COUNT(DISTINCT city)
 FROM  suppliers;
 
 SELECT COUNT(DISTINCT productid)
-FROM  order_details;
+FROM  OrderDetails;
